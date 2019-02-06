@@ -11,7 +11,7 @@
         "Exception",
         "throw",
         "Error",
-        "Throwable",
+        "Throwable"
     ],
     "type": "library",
     "homepage": "https://github.com/tregor/ErrorHandler",
@@ -23,7 +23,7 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=5.4.0"
     },
     "support": {
         "email": "r.kapishev@gmail.com"
@@ -33,5 +33,5 @@
         "psr-4": {
             "tregor\\ErrorHandler\\": "src/"
         }
-    },
+    }
 }
