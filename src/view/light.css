@@ -6,19 +6,16 @@
 		margin: 0;
 	}
 
-	.DEBUG {
+	.ErrLevel6 {
+		background-color: #3f51b5;
+	}
+	.ErrLevel5 {
 		background-color: #4caf50;
 	}
-	.EXCEPTION {
-		background-color: #3f51b5;
-	}
-	.NOTICE {
-		background-color: #3f51b5;
-	}
-	.WARNING {
+	.ErrLevel4 {
 		background-color: #ff5722;
 	}
-	.ERROR {
+	.ErrLevel3 {
 		background-color: #f44336;
 	}
 
@@ -34,7 +31,7 @@
 	.container {
 		color: white;
 		width: 90%;
-		margin: 16px auto;
+		margin: 16px auto 64px;
 		box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 		border-radius: 5px;
 	}

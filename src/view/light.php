@@ -2,7 +2,7 @@
 <div class="title">
 	<h1>Another one PHP error...</h1>
 </div>
-<div class="container <?=$theme['error']['type']?>">
+<div class="container ErrLevel<?=$theme['error']['level']?>">
 	<div class="block">
 		<div class="head">
 			<span class="errType">[<?=$theme['error']['code']?>] <?=$theme['error']['type']?></span>

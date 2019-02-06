@@ -28,13 +28,13 @@ class ErrorHandler
 	private $traceDepth = 0;
 
 	/** Getter for template setting */
-	public function getTemplate() {return $this->template;}
+	public static function getTemplate() {return $this->template;}
 	/** Getter for trace depth */
-	public function getTraceDepth() {return $this->traceDepth;}
+	public static function getTraceDepth() {return $this->traceDepth;}
 	/** Setter for template setting */
-	public function setTemplate($value) {return $this->template = $value;}
+	public static function setTemplate($value) {return $this->template = $value;}
 	/** Setter for trace depth */
-	public function setTraceDepth($value) {return $this->traceDepth = $value;}
+	public static function setTraceDepth($value) {return $this->traceDepth = $value;}
 	
 	/**
 	 * Initializing and setup handlers
@@ -97,7 +97,7 @@ class ErrorHandler
 		$this->error = [
 			"code" => $e->getCode(),
 			"type" => get_class($e),
-			"level" => 'EXCEPTION',
+			"level" => '6',
 			"message" => $e->getMessage(),
 		];
 		$this->file = [
@@ -225,7 +225,6 @@ class ErrorHandler
 		$theme = [
 			"error" => $this->error,
 			"file" => $this->file,
-			"variables" => $this->variables,
 			"backtrace" => $this->backtrace,
 			"settings" => [
 				"template" => $this->template,
@@ -233,15 +232,15 @@ class ErrorHandler
 		];
 
 		/* Checking that template is exist */
-		if (!file_exists(__DIR__."/view/{$this->theme}.css")) {
+		if (!file_exists(__DIR__."/view/{$this->template}.css")) {
 			$theme['settings']['template'] = "light";
-		}elseif (!file_exists(__DIR__."/view/{$this->theme}.php")) {
+		}elseif (!file_exists(__DIR__."/view/{$this->template}.php")) {
 			$theme['settings']['template'] = "light";
 		}
 
 		/* To create new template see /view/example.php */
-		require __DIR__."/view/{$this->theme}.css";
-		require __DIR__."/view/{$this->theme}.php";
+		require __DIR__."/view/{$this->template}.css";
+		require __DIR__."/view/{$this->template}.php";
 		require __DIR__."/view/script.js";
 
 		die();

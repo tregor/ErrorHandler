@@ -1,6 +1,20 @@
 {
     "name": "tregor/error-handler",
     "description": "Beautiful and informative PHP Error Handler!",
+    "keywords": [
+        "PHP",
+        "ErrorHandler",
+        "Error handler",
+        "ExceptionHandler",
+        "Exception handler",
+        "Debug",
+        "Exception",
+        "throw",
+        "Error",
+        "Throwable",
+    ],
+    "type": "library",
+    "homepage": "https://github.com/tregor/ErrorHandler",
     "license": "MIT",
     "authors": [
         {
@@ -8,5 +22,16 @@
             "email": "tregor1997@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=5.4.0",
+    },
+    "support": {
+        "email": "r.kapishev@gmail.com"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "tregor\\ErrorHandler\\": "src/"
+        }
+    },
 }
