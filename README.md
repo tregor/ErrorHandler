@@ -90,16 +90,16 @@ new Josantonius\ErrorHandler\ErrorHandler;
 
 
 **EXCEPTION Handler:**
-![image](img/exception.png)
+![image](img/Exception.png)
 
 **ERROR Handler:**
-![image](img/error.png)
+![image](img/Error.png)
 
 **WARNING Handler:**
-![image](img/notice.png)
+![image](img/Notice.png)
 
 **NOTICE Handler:**
-![image](img/warning.png)
+![image](img/Warning.png)
 
 ## TODO
 
