@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic&subset=latin,latin-ext,cyrillic,cyrillic-ext,greek-ext,greek,vietnamese);
+
+body {
+	font-family: Roboto;
+	margin: 0;
+}
+
+.DEBUG {
+	background-color: #4caf50;
+}
+.EXCEPTION {
+	background-color: #3f51b5;
+}
+.NOTICE {
+	background-color: #3f51b5;
+}
+.WARNING {
+	background-color: #ff5722;
+}
+.ERROR {
+	background-color: #f44336;
+}
+
+.header {
+	text-align: center;
+	width: 100%;
+	margin: 16px auto;
+}
+.container {
+	color: white;
+	width: 90%;
+	margin: 16px auto;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	border-radius: 5px;
+}
+.block {
+	width: 100%;
+}
+.head {
+	padding: 16px 64px;
+}
+.errType {
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 24px;
+}
+#HelpMeStack {
+	line-height: 24px;
+	float: right;
+	font-size: 18px;
+	text-decoration: underline;
+}
+#HelpMeStack > a {
+	color: white;
+}
+.code {
+	margin: 32px;
+	background-color: white;
+	color: black;
+	padding: 32px 16px;
+}
+.line {
+	margin: 2px 0;
+}
+.line .index {
+	color: #757575;
+	padding: 2px 4px;
+	margin-right: 16px;
+}
+.line#target{
+	color: #212121;
+	background-color: #ef5350;
+}
+.line#target .index{
+	color: #bdbdbd;
+}
+.tab {
+	padding-left: 32px;
+}
+.backtrace {
+	background-color: white;
+	color: black;
+	border-radius: 0 0 5px 5px;
+}
+#backtraceSwitch {
+	text-align: center;
+	border: 1px solid lightgray;
+	border-radius: 0 0 5px 5px;
+	margin: 0;
+	padding: 16px;
+	background-color: #eeeeee;
+}
+#backtraceSwitch:hover {
+	background-color: #e0e0e0;
+}
+#backtraceSwitch > a {
+	text-decoration: none;
+	color: black;
+}
+#backtraceList {
+	padding: 8px 0;
+}
+.backtraceItem {
+	padding: 16px;
+	margin: 0;
+	line-height: 20px;
+}
+.backtraceItem:hover {
+	background-color:  #f5f5f5;
+}
+.backtraceItem > .file {
+	float: right;
+	font-size: 12px;
+	color: #757575;
+}
+.backtraceItem > .index {
+	background-color: #bdbdbd;
+	width: 20px;
+	display: block;
+	height: 20px;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 20px;
+	font-family: monospace;
+	font-size: 16px;
+	float: left;
+	margin-right: 8px;
+}
