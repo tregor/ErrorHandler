@@ -20,7 +20,7 @@ PHP library for handling exceptions and errors.
 - [Available Methods](#available-methods)
 - [Quick Start](#quick-start-and-usage)
 - [Images](#images)
-- [TODO](#-todo)
+- [TODO](#todo)
 - [Contribute](#contribute)
 - [License](#license)
 - [Copyright](#copyright)
