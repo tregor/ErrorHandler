@@ -1,14 +1,10 @@
 # Beautiful and informative PHP Error Handler!
 
-![License](https://img.shields.io/github/license/tregor/ErrorHandler.svg?style=flat-square)
 ![Total Downloads](https://img.shields.io/packagist/dt/tregor/error-handler.svg?style=flat-square)
 ![GitHub Version](https://img.shields.io/github/tag/tregor/ErrorHandler.svg?style=flat-square)
-
-[![Latest Stable Version](https://poser.pugx.org/josantonius/ErrorHandler/v/stable)](https://packagist.org/packages/josantonius/ErrorHandler)
-[![Latest Unstable Version](https://poser.pugx.org/josantonius/ErrorHandler/v/unstable)](https://packagist.org/packages/josantonius/ErrorHandler)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fe730d61628249d280ecfb380a1ee3b8)](https://www.codacy.com/app/Josantonius/PHP-ErrorHandler?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Josantonius/PHP-ErrorHandler&amp;utm_campaign=Badge_Grade)
-[![Travis](https://travis-ci.org/Josantonius/PHP-ErrorHandler.svg)](https://travis-ci.org/Josantonius/PHP-ErrorHandler)
-[![CodeCov](https://codecov.io/gh/Josantonius/PHP-ErrorHandler/branch/master/graph/badge.svg)](https://codecov.io/gh/Josantonius/PHP-ErrorHandler)
+![Last Commit](https://img.shields.io/github/last-commit/tregor/ErrorHandler.svg?style=flat-square)
+![PHP Req](https://img.shields.io/packagist/php-v/tregor/error-handler.svg?style=flat-square)
+![License](https://img.shields.io/github/license/tregor/ErrorHandler.svg?style=flat-square)
 
 
 PHP library for handling exceptions and errors.
@@ -41,7 +37,7 @@ To install **PHP ErrorHandler library**, simply:
 
 You can also **clone the complete repository** with Git:
 
-  $ git clone https://github.com/treggor/ErrorHandler.git
+    $ git clone https://github.com/treggor/ErrorHandler.git
 
 Or **install it manually**:
 
