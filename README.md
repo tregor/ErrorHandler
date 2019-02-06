@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/github/license/tregor/ErrorHandler.svg?style=flat-square)](LICENSE)
 
 
-PHP library for handling exceptions and errors.
+PHP library for handling exceptions and errors! (Now with direct href to StackOverflow :wink: )
 
 ---
 
