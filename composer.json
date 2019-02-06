@@ -1,5 +1,6 @@
 {
     "name": "tregor/error-handler",
+    "version": "~v1.0.0",
     "description": "Beautiful and informative PHP Error Handler!",
     "keywords": [
         "PHP",
