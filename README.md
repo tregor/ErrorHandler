@@ -1,10 +1,10 @@
 # Beautiful and informative PHP Error Handler!
 
-![Total Downloads](https://img.shields.io/packagist/dt/tregor/error-handler.svg?style=flat-square)
-![GitHub Version](https://img.shields.io/github/tag/tregor/ErrorHandler.svg?style=flat-square)
-![Last Commit](https://img.shields.io/github/last-commit/tregor/ErrorHandler.svg?style=flat-square)
-![PHP Req](https://img.shields.io/packagist/php-v/tregor/error-handler.svg?style=flat-square)
-![License](https://img.shields.io/github/license/tregor/ErrorHandler.svg?style=flat-square)
+[![Total Downloads](https://img.shields.io/packagist/dt/tregor/error-handler.svg?style=flat-square)](https://packagist.org/packages/tregor/error-handler)
+[![GitHub Version](https://img.shields.io/github/tag/tregor/ErrorHandler.svg?style=flat-square)](https://github.com/tregor/ErrorHandler)
+[![Last Commit](https://img.shields.io/github/last-commit/tregor/ErrorHandler.svg?style=flat-square)](https://github.com/tregor/ErrorHandler)
+[![PHP Req](https://img.shields.io/packagist/php-v/tregor/error-handler.svg?style=flat-square)](https://packagist.org/packages/tregor/error-handler)
+[![License](https://img.shields.io/github/license/tregor/ErrorHandler.svg?style=flat-square)](LICENSE)
 
 
 PHP library for handling exceptions and errors.
