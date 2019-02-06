@@ -1,0 +1,12 @@
+{
+    "name": "tregor/error-handler",
+    "description": "Beautiful and informative PHP Error Handler!",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tregor",
+            "email": "tregor1997@gmail.com"
+        }
+    ],
+    "require": {}
+}

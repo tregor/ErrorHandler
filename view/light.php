@@ -1,5 +1,5 @@
 
-<div class="header">
+<div class="title">
 	<h1>Another one PHP error...</h1>
 </div>
 <div class="container <?=$theme['error']['type']?>">
