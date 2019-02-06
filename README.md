@@ -9,8 +9,34 @@
 
 PHP library for handling exceptions and errors! (Now with direct href to StackOverflow :wink: )
 
----
+> **Debug is never been so cool and easy!😃**
+> 
+> *(C) Bill Gates*
 
+> **Make handlers great again!😎**
+> 
+> *(C) Steve Jobs*
+
+> **I have sex with that library!!!😍**
+> 
+> *(C) Bill Clinton*
+
+> **Okay, let's see what this library can...😏**
+> 
+> *(C) Typical Programmer*
+
+This library turns debugging from a boring and monotonous work into a simple and easy process with a beautiful interface and smart error tracking!
+
+According to the fictional statistics, when using this library, the fix of errors occurs in 87.13% faster compared to without the library!
+
+If you start using this library right now, then we will give you access to the StackOverflow website for 1 year ABSOLUTELY FREE!
+
+We will also give you the certificate of "BaD DeV" if you recommend this library to your friends!
+
+And finally: this is my first public library, which is not made of shit and sticks. Thanks for using!:blush:
+
+---
+## Navigation
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Available Methods](#available-methods)
