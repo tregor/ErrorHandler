@@ -63,7 +63,7 @@ To install **PHP ErrorHandler library**, simply:
 
 You can also **clone the complete repository** with Git:
 
-    $ git clone https://github.com/treggor/ErrorHandler.git
+    $ git clone https://github.com/tregor/ErrorHandler.git
 
 Or **install it manually**:
 
@@ -105,7 +105,7 @@ Or If you installed it **manually**, use it:
 ```php
 require_once __DIR__ . '/ErrorHandler.php';
 
-new Josantonius\ErrorHandler\ErrorHandler;
+new tregor\ErrorHandler\ErrorHandler;
 ```
 
 ## Images
@@ -126,8 +126,9 @@ new Josantonius\ErrorHandler\ErrorHandler;
 ## TODO
 
 - [X] Make some settings.
-- [ ] Make tests.
-- [ ] Improve documentation.
+- [X] Improve documentation.
+- [ ] Add enviroment variables on debug page.
+- [ ] Include CLI version of error respond.
 - [ ] Refactor code.
 - [ ] Make it better.
 - [ ] Take a cup of coffee.
@@ -135,7 +136,7 @@ new Josantonius\ErrorHandler\ErrorHandler;
 ## Contribute
 
 If you would like to help, please take a look at the list of
-[issues](https://github.com/tregor/ErrorHandler/issues) or the [ToDo](#-todo) checklist.
+[issues](https://github.com/tregor/ErrorHandler/issues) or the [ToDo](#todo) checklist.
 
 **Pull requests**
 
@@ -152,6 +153,6 @@ This project is licensed under **MIT license**. See the [LICENSE](LICENSE) file 
 
 By tregor 2019
 
-Please let me know, if you have feedback or suggestions.
+Please let me know if you have feedback or suggestions.
 
-You can contact me on [Facebook](https://www.facebook.com/tregor1997) or through my [email](mailto:tregor1997@gmail.com).
+You can contact me on [Telegram](https://t.me/tregor) or through my [email](mailto:tregor1997@gmail.com).
