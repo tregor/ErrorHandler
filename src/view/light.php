@@ -24,8 +24,9 @@
 	<div class="block">
 		<div class="backtrace">
 			<p id="backtraceSwitch"><a href="#">Show/Hide Trace</a></p>
-			<div id="backtraceList" style="display: hidden;">
+			<div id="backtraceList" style="display: none;">
 			<?php
+            //TODO: Подсвечивать активный бектрейс
 				foreach ($theme['backtrace'] as $index => $step) {
 					echo "<p onclick=\"selectBacktrace({$index})\" class=\"backtraceItem\">
 					<span class=\"file\">{$step['file']}:{$step['line']}</span>
@@ -37,4 +38,22 @@
 			</div>
 		</div>
 	</div>
+    <div class="block">
+        <div class="variables">
+            <div id="varGET">
+                <pre>
+                <?
+                $varString = print_r($theme['variables'], TRUE);
+
+                $varString = preg_replace("/Array\n.*\(/", "[", $varString);
+                $varString = preg_replace("/\)\n/", "]", $varString);
+                $varString = preg_replace("/\[(.*)\]/mU", "'$1'", $varString);
+                $varString = str_replace(["'GET'", "'POST'", "'COOKIE'", "'SESSION'", "'SERVER'"], ["\$_GET", "\$_POST", "\$_COOKIE", "\$_SESSION", "\$_SERVER"], $varString);
+
+                echo $varString;
+                ?>
+                </pre>
+            </div>
+        </div>
+    </div>
 </div>

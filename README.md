@@ -127,7 +127,7 @@ new tregor\ErrorHandler\ErrorHandler;
 
 - [X] Make some settings.
 - [X] Improve documentation.
-- [ ] Add enviroment variables on debug page.
+- [X] Add enviroment variables on debug page.
 - [X] Update colors in template.
 - [ ] Include CLI version of error respond.
 - [ ] Refactor code.
